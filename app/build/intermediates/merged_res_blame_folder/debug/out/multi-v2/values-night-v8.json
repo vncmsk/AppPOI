@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Sebastian\\AndroidStudioProjects\\cocomMinTicappPuntosInteres\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "C:\\Users\\Sebastian\\Documents\\Mis_TIC_2022\\Ciclo 4\\Desarrollo de software\\Proyecto\\appPuntosInteres\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Sebastian\\AndroidStudioProjects\\cocomMinTicappPuntosInteres\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\Sebastian\\Documents\\Mis_TIC_2022\\Ciclo 4\\Desarrollo de software\\Proyecto\\appPuntosInteres\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
