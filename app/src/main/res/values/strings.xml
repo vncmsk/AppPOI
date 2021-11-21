@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Puntos de interés</string>
     <string name="poi_1">Reserva Natural Omagua</string>
-    <string name="desc_poi_1">A solo 10 kms de Leticia, por la vía hacía Tarapacá</string>
+    <string name="desc_poi_1">Reserva natural a solo 10 kms de Leticia, por la vía hacía Tarapacá</string>
     <string name="poi_2">Parque Santander</string>
     <string name="desc_poi_2">Su principal atractivo es estar rodeado de vegetación endémica de la amazonía</string>
     <string name="poi_3">Isla Los Micos</string>
@@ -9,18 +9,19 @@
     <string name="poi_4">Puerto Nariño</string>
     <string name="desc_poi_4">Situado a orillas del río Loretoyaco, a 87 km de Leticia</string>
     <string name="poi_5">Reserva Flor de Lotto</string>
-    <string name="desc_poi_5">Esta reserva natural te permite admirar el loto más grande del Amazonas</string>
+    <string name="desc_poi_5">Esta reserva natural te permite admirar el lotto más grande del Amazonas</string>
     <string name="namePOISelected">Reserva Natural Omagua.</string>
     <string name="descriptionPOISelected">A solo 10 kms de Leticia, por la vía hacía Tarapacá, usted se encontrará justo en la entrada de esta reserva natural. Y para llegar hay diferentes tipos de transportes que lo llevaran hasta la puerta de la reserva.</string>
     <string name="img1">ImageOmagua</string>
     <string name="ciudad_poi">Leticia, Amazonas</string>
     <string name="imagedescription">ddd</string>
     <string name="logo_ubicacion">logo ubicación</string>
-    <string name="email">jkmahecha@yaho.com</string>
+    <string name="email">jkmahecha@yahoo.com</string>
     <string name="image_email">image_email</string>
     <string name="phone">3103379233</string>
     <string name="web_page">https://omagua.amazonia.com.co</string>
     <string name="address">Km 10 Leticia, Amazonas</string>
     <string name="activities">Actividades</string>
-    <string name="desc_activities">Caminata puente colgante, Tour canopy, Tour #3</string>
+    <string name="desc_activities">Caminata, puente colgante, Tour canopy.</string>
+    <string name="temperatura">25° C</string>
 </resources>
