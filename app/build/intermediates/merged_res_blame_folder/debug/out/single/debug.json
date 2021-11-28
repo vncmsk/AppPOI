@@ -36,12 +36,12 @@
         "source": "D:\\Ciclo 4\\appPuntosInteres\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Ciclo 4\\appPuntosInteres\\app\\build\\intermediates\\merged_res\\debug\\layout_card_view_punto_item.xml.flat",
-        "source": "D:\\Ciclo 4\\appPuntosInteres\\app\\src\\main\\res\\layout\\card_view_punto_item.xml"
-    },
-    {
         "merged": "D:\\Ciclo 4\\appPuntosInteres\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\Ciclo 4\\appPuntosInteres\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Ciclo 4\\appPuntosInteres\\app\\build\\intermediates\\merged_res\\debug\\layout_card_view_punto_item.xml.flat",
+        "source": "D:\\Ciclo 4\\appPuntosInteres\\app\\src\\main\\res\\layout\\card_view_punto_item.xml"
     },
     {
         "merged": "D:\\Ciclo 4\\appPuntosInteres\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",

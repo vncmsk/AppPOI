@@ -1,0 +1,42 @@
+[
+  {
+    "nombre":"prueba1",
+    "altura" : "123",
+    "actividadesPoi" : "1 si o si",
+    "rate" : 1,
+    "descripcion" : "Ciudad ubicada en la latitud 123456789 y longitud 987654321, se caracteriza por sus rascacielos",
+    "urlPicture" : "https://us.123rf.com/450wm/sborisov/sborisov1607/sborisov160700037/62932596-ver-en-manhattan-en-la-noche-nueva-york-ee-uu-.jpg"
+  },
+  {
+    "nombre":"prueba2",
+    "altura" : "234",
+    "actividadesPoi" : "2 si o si",
+    "rate" : 2,
+    "descripcion" : "Ciudad ubicada en la latitud 123456789 y longitud 987654321, se caracteriza por sus rascacielos",
+    "urlPicture" : "https://us.123rf.com/450wm/sborisov/sborisov1607/sborisov160700037/62932596-ver-en-manhattan-en-la-noche-nueva-york-ee-uu-.jpg"
+  },
+  {
+    "nombre":"prueba3",
+    "altura" : "345",
+    "actividadesPoi" : "3 si o si",
+    "rate" : 3,
+    "descripcion" : "Ciudad ubicada en la latitud 123456789 y longitud 987654321, se caracteriza por sus rascacielos",
+    "urlPicture" : "https://us.123rf.com/450wm/sborisov/sborisov1607/sborisov160700037/62932596-ver-en-manhattan-en-la-noche-nueva-york-ee-uu-.jpg"
+  },
+  {
+    "nombre":"prueba4",
+    "altura" : "456",
+    "actividadesPoi" : "4 si o si",
+    "rate" : 4,
+    "descripcion" : "Ciudad ubicada en la latitud 123456789 y longitud 987654321, se caracteriza por sus rascacielos",
+    "urlPicture" : "https://us.123rf.com/450wm/sborisov/sborisov1607/sborisov160700037/62932596-ver-en-manhattan-en-la-noche-nueva-york-ee-uu-.jpg"
+  },
+  {
+    "nombre":"prueba5",
+    "altura" : "567",
+    "actividadesPoi" : "5 si o si",
+    "rate" : 5,
+    "descripcion" : "Ciudad ubicada en la latitud 123456789 y longitud 987654321, se caracteriza por sus rascacielos",
+    "urlPicture" : "https://us.123rf.com/450wm/sborisov/sborisov1607/sborisov160700037/62932596-ver-en-manhattan-en-la-noche-nueva-york-ee-uu-.jpg"
+  }
+]

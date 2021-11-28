@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">PuntosDeInteres</string>
+    <string name="titulo_sitio">Sitio turistico</string>
+    <string name="nombre_poi">Reserva Natural Flor de lotto</string>
+    <string name="temperatura">Temperatura: 18°</string>
+    <string name="altura">Altura: 2600 msn</string>
+    <string name="descripcion">El sitio se caracteriza por: su conexión con la madre naturaleza, el verde de sus paisajes y la tranquilidad junto con el cantar de las aves.</string>
+    <string name="registro_sitio">Registro Sitio</string>
+    <string name="registrar">Registrar</string>
+    <string name="nombre">Nombre:</string>
+    <string name="temperatura_registro">Temperatura:</string>
+    <string name="altura_sitio">Altura:</string>
+    <string name="nombre_info">"Nombre: %s,\n Altura: %f,\n Moneda: %s,\n Actividades: %s,\n Cantidad: %s"</string>
+    <string name="moneda">Moneda: COP</string>
+    <string name="peso">COP</string>
+    <string name="dolar">USD</string>
+    <string name="descripcion_registro">Descripción</string>
+    <string name="actividades">Actividades</string>
+    <string name="Piscina">Piscina</string>
+    <string name="bicicleta">Bicicleta</string>
+    <string name="canotaje">Canotaje</string>
+    <string name="rate">Rate</string>
+    <string-array name="Rate">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="Notificaciones">Notificaciones</string>
+    <string name="sonido_notificaciones">Activar sonido de notificaciones</string>
+    <string name="Configuración">configuracion</string>
+</resources>

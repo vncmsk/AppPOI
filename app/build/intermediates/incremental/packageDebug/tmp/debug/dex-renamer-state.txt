@@ -1,4 +1,4 @@
-#Sun Nov 21 00:46:59 COT 2021
+#Sat Nov 27 21:00:53 COT 2021
 base.2=D\:\\Ciclo 4\\appPuntosInteres\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\13\\classes.dex
 path.2=13/classes.dex
 base.1=D\:\\Ciclo 4\\appPuntosInteres\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

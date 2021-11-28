@@ -1,0 +1,17 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="notificaciones"
+        android:title="@string/Notificaciones"
+        android:icon="@drawable/ic_notifications"/>
+
+    <CheckBoxPreference
+        app:dependency="notificaciones"
+        android:defaultValue="false"
+        android:key="sound_notificaciones"
+        android:title="@string/sonido_notificaciones"
+        android:icon="@drawable/ic_sound_notifications"/>
+
+</PreferenceScreen>
