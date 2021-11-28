@@ -35,10 +35,12 @@ class DetailFragment : Fragment() {
 
     with (detailBinding) {
       tituloTextView.text = punto.nombre
-      temperaturaTextView.text = punto.temperatura
-      alturaTextView.text = punto.altura
       descripcionTextView.text = punto.descripcion
-      actividadesTextView.text = punto.actividadesPoi
+      telefonoTextView.text = punto.telefono
+      webTextView.text = punto.web
+      ubicacionTextView.text = punto.ubicacion
+      temperaturaTextView.text = punto.temperatura
+      actividadesTextView.text = punto.actividades
       com.squareup.picasso.Picasso.get().load(punto.urlPicture).into(sitioImageView)
     }
   }

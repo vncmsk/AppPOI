@@ -1,2 +1,0 @@
-com/example/cocomminticapppuntosinteres/BuildConfig.java
- com.example.cocomminticapppuntosinteres.BuildConfig

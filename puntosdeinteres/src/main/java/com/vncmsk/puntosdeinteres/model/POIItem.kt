@@ -5,20 +5,30 @@ import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
 data class POIItem(
-    @SerializedName("actividadesPoi")
-    val actividadesPoi: String?,
+
+    @SerializedName("nombre")
+    val nombre: String?,
 
     @SerializedName("descripcion")
     val descripcion: String?,
 
+    @SerializedName("correo")
+    val correo: String?,
+
+    @SerializedName("telefono")
+    val telefono: String?,
+
+    @SerializedName("web")
+    val web: String?,
+
+    @SerializedName("ubicacion")
+    val ubicacion: String?,
+
     @SerializedName("temperatura")
     val temperatura: String?,
 
-    @SerializedName("altura")
-    val altura: String?,
-
-    @SerializedName("nombre")
-    val nombre: String?,
+    @SerializedName("actividades")
+    val actividades: String?,
 
     @SerializedName("urlPicture")
     val urlPicture: String?,

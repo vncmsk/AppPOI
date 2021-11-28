@@ -34,12 +34,14 @@ class PuntosAdapter(
     private var nameTextView: TextView = itemView.findViewById(R.id.name_text_view)
     private var descripcionTextView: TextView = itemView.findViewById(R.id.descripcion_text_view)
     private var pictureImageView: ImageView = itemView.findViewById(R.id.picture_image_view)
+    private var rateTextView: TextView = itemView.findViewById(R.id.rateTextView)
     private var rateRatingBar: RatingBar = itemView.findViewById(R.id.puntaje_ratingbar)
 
     fun bind(puntoInteres: POIItem) {
       nameTextView.text = puntoInteres.nombre
       descripcionTextView.text = puntoInteres.descripcion
       Picasso.get().load(puntoInteres.urlPicture).into(pictureImageView);
+      rateTextView.text = puntoInteres.rate.toString()
       rateRatingBar.rating = puntoInteres.rate!!
     }
   }

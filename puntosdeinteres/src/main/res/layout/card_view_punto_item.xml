@@ -23,6 +23,20 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <TextView
+                android:id="@+id/name_text_view"
+                style="@style/Texto_titulo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:text="@string/namePOISelected"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
             <ImageView
                 android:id="@+id/picture_image_view"
                 android:layout_width="100dp"
@@ -33,27 +47,19 @@
                 android:contentDescription="@null"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/verde" />
-
-            <TextView
-                android:id="@+id/name_text_view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="@string/titulo_sitio"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/picture_image_view"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toBottomOf="@+id/name_text_view"
+                app:srcCompat="@drawable/omagua" />
 
             <TextView
                 android:id="@+id/descripcion_text_view"
+                style="@style/Texto_normal"
                 android:layout_width="0dp"
-                android:layout_height="67dp"
+                android:layout_height="76dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="@string/descripcion"
+                android:text="@string/desc_poi_1"
+                android:textSize="19dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/picture_image_view"
                 app:layout_constraintTop_toBottomOf="@+id/name_text_view" />
@@ -70,6 +76,19 @@
                 app:layout_constraintStart_toEndOf="@+id/picture_image_view"
                 app:layout_constraintTop_toBottomOf="@+id/descripcion_text_view"
                 tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/rateTextView"
+                style="@style/Texto_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/rates"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/puntaje_ratingbar"
+                app:layout_constraintTop_toBottomOf="@+id/descripcion_text_view" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>
