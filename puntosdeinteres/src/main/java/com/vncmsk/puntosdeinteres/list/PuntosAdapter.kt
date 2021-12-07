@@ -30,6 +30,12 @@ class PuntosAdapter(
 
   override fun getItemCount(): Int = puntosList.size
 
+  fun appenditems(newItems: ArrayList<POIItem>) {
+    puntosList.clear()
+    puntosList.addAll(newItems)
+    notifyDataSetChanged()
+  }
+
   class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     private var nameTextView: TextView = itemView.findViewById(R.id.name_text_view)
     private var descripcionTextView: TextView = itemView.findViewById(R.id.descripcion_text_view)
