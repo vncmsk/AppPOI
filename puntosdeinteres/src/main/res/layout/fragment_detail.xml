@@ -82,7 +82,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tituloTextView"
-        tools:ignore="RtlSymmetry" />
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
 
     <TextView
         android:id="@+id/correoTextView"
@@ -96,7 +96,8 @@
         android:textColor="#5C5959"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/descripcionTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/descripcionTextView"
+        tools:ignore="RtlHardcoded" />
 
     <TextView
         android:id="@+id/webTextView"
@@ -110,7 +111,8 @@
         android:textColor="#5C5959"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imageView10"
-        app:layout_constraintTop_toBottomOf="@+id/telefonoTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/telefonoTextView"
+        tools:ignore="RtlHardcoded" />
 
     <TextView
         android:id="@+id/tituloTextView"
@@ -142,7 +144,8 @@
         android:textColor="#5C5959"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imageView9"
-        app:layout_constraintTop_toBottomOf="@+id/correoTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/correoTextView"
+        tools:ignore="RtlHardcoded" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -203,7 +206,8 @@
         android:textColor="#5C5959"
         android:textSize="18sp"
         app:layout_constraintStart_toEndOf="@+id/imageView11"
-        app:layout_constraintTop_toBottomOf="@+id/webTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/webTextView"
+        tools:ignore="RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView18"
@@ -233,5 +237,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
         app:srcCompat="@drawable/temperatura" />
+
+    <ImageButton
+        android:id="@+id/mapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/tituloTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_gps_fixed_24"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:contentDescription="@null" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -26,10 +26,18 @@
         <argument
             android:name="puntoInteres"
             app:argType="com.vncmsk.puntosdeinteres.model.POIItem" />
+        <action
+            android:id="@+id/action_detailFragment_to_mapsFragment"
+            app:destination="@id/mapsFragment" />
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
         android:name="com.vncmsk.puntosdeinteres.preference.SettingsFragment"
         android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.vncmsk.puntosdeinteres.maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 
 </navigation>

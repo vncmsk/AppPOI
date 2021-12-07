@@ -13,12 +13,37 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc33f63-02a8-4896-bb2c-0b29c6af9088" name="Default Changelist" comment="Sprint 3 completo, Fragments y Navigation OK">
-      <change afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/list/ListViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="8cc33f63-02a8-4896-bb2c-0b29c6af9088" name="Default Changelist" comment="Refactorización MVVM">
+      <change afterPath="$PROJECT_DIR$/puntosdeinteres/src/debug/res/values/google_maps_api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/maps/MapsFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/drawable/ic_baseline_gps_fixed_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/layout/fragment_maps.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/puntosdeinteres/src/release/res/values/google_maps_api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/list/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/list/ListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/list/PuntosAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/list/PuntosAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/detail/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/detail/DetailFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/res/layout/fragment_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/layout/fragment_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +137,12 @@
     </key>
     <key name="android.template.-2034651766">
       <recent name="com.example.cocomminticapppuntosinteres" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.vncmsk.puntosdeinteres.maps" />
+    </key>
+    <key name="android.template.1196690534">
+      <recent name="com.vncmsk.puntosdeinteres" />
     </key>
     <key name="android.template.1212200445">
       <recent name="com.example.cocomminticapppuntosinteres" />
@@ -275,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638075112228</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Refactorización MVVM">
+      <created>1638843633565</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638843633565</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +331,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Sprint 2 completo, Recycler view OK" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprint 2 completo, Recycler view OK" />
+    <MESSAGE value="Refactorización MVVM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactorización MVVM" />
   </component>
 </project>
