@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.vncmsk.puntosdeinteres.list.ListFragment"
+        android:name="com.vncmsk.puntosdeinteres.ui.list.ListFragment"
         android:label="fragment_list"
-        tools:layout="@layout/fragment_list" >
+        tools:layout="@layout/fragment_list">
         <action
             android:id="@+id/action_listFragment_to_detailFragment"
             app:destination="@id/detailFragment" />
@@ -20,9 +20,9 @@
 
     <fragment
         android:id="@+id/detailFragment"
-        android:name="com.vncmsk.puntosdeinteres.detail.DetailFragment"
+        android:name="com.vncmsk.puntosdeinteres.ui.detail.DetailFragment"
         android:label="DetailFragment"
-        tools:layout="@layout/fragment_detail" >
+        tools:layout="@layout/fragment_detail">
         <argument
             android:name="puntoInteres"
             app:argType="com.vncmsk.puntosdeinteres.model.POIItem" />
@@ -30,14 +30,21 @@
             android:id="@+id/action_detailFragment_to_mapsFragment"
             app:destination="@id/mapsFragment" />
     </fragment>
+
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.vncmsk.puntosdeinteres.preference.SettingsFragment"
-        android:label="SettingsFragment" />
+        android:name="com.vncmsk.puntosdeinteres.ui.preference.SettingsFragment"
+        android:label="SettingsFragment" >
+    </fragment>
+
     <fragment
         android:id="@+id/mapsFragment"
-        android:name="com.vncmsk.puntosdeinteres.maps.MapsFragment"
+        android:name="com.vncmsk.puntosdeinteres.ui.maps.MapsFragment"
         android:label="fragment_maps"
-        tools:layout="@layout/fragment_maps" />
+        tools:layout="@layout/fragment_maps">
+        <argument
+            android:name="puntoInteres"
+            app:argType="com.vncmsk.puntosdeinteres.model.POIItem" />
+    </fragment>
 
 </navigation>

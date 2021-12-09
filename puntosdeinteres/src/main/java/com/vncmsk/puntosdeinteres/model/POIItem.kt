@@ -33,6 +33,12 @@ data class POIItem(
     @SerializedName("urlPicture")
     val urlPicture: String?,
 
+    @SerializedName("latitud")
+    val latitud: String?,
+
+    @SerializedName("longitud")
+    val longitud: String?,
+
     @SerializedName("rate")
     val rate: Float?
 ) : Serializable

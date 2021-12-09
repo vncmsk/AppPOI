@@ -1,4 +1,4 @@
-package com.vncmsk.puntosdeinteres.main
+package com.vncmsk.puntosdeinteres.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ import androidx.appcompat.app.ActionBar
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import com.vncmsk.puntosdeinteres.R
-import com.vncmsk.puntosdeinteres.preference.SettingsFragment
+import com.vncmsk.puntosdeinteres.ui.preference.SettingsFragment
 
 class MainActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {

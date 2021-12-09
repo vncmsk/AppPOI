@@ -1,4 +1,4 @@
-package com.vncmsk.puntosdeinteres.detail
+package com.vncmsk.puntosdeinteres.ui.detail
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,9 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.squareup.picasso.Picasso
 import com.vncmsk.puntosdeinteres.databinding.FragmentDetailBinding
-import com.vncmsk.puntosdeinteres.main.MainActivity
+import com.vncmsk.puntosdeinteres.ui.main.MainActivity
 
 class DetailFragment : Fragment() {
 
@@ -45,7 +44,7 @@ class DetailFragment : Fragment() {
       com.squareup.picasso.Picasso.get().load(punto.urlPicture).into(sitioImageView)
 
       mapButton.setOnClickListener{
-      findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment())
+      findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToMapsFragment(puntoInteres = punto))
       }
     }
   }

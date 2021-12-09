@@ -1,4 +1,4 @@
-package com.vncmsk.puntosdeinteres.maps
+package com.vncmsk.puntosdeinteres.ui.maps
 
 import androidx.fragment.app.Fragment
 
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.navArgs
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.OnMapReadyCallback
@@ -16,7 +17,9 @@ import com.vncmsk.puntosdeinteres.R
 
 class MapsFragment : Fragment() {
 
+    private val args : MapsFragmentArgs by navArgs()
     private val callback = OnMapReadyCallback { googleMap ->
+
         /**
          * Manipulates the map once available.
          * This callback is triggered when the map is ready to be used.
@@ -26,13 +29,12 @@ class MapsFragment : Fragment() {
          * install it inside the SupportMapFragment. This method will only be triggered once the
          * user has installed Google Play services and returned to the app.
          */
-        val sydney = LatLng(-34.0, 151.0)
-        googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
 
-        val lotto = LatLng(-4.1863815, -69.9741459)
-        googleMap.addMarker(MarkerOptions().position(lotto).title("Reserva Natural flor de lotto"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(lotto, 15F))
+        val sitio = args.puntoInteres
+
+        val ubicacionSitio = LatLng(sitio.latitud!!.toDouble(), sitio.longitud!!.toDouble())
+        googleMap.addMarker(MarkerOptions().position(ubicacionSitio).title(sitio.nombre).snippet("Rate: "+sitio.rate))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(ubicacionSitio, 14F))
 
     }
 

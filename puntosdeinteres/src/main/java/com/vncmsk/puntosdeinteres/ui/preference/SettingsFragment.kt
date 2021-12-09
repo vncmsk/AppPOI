@@ -1,11 +1,11 @@
-package com.vncmsk.puntosdeinteres.preference
+package com.vncmsk.puntosdeinteres.ui.preference
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
 import androidx.preference.PreferenceFragmentCompat
 import com.vncmsk.puntosdeinteres.R
-import com.vncmsk.puntosdeinteres.main.MainActivity
+import com.vncmsk.puntosdeinteres.ui.main.MainActivity
 
 class SettingsFragment : PreferenceFragmentCompat() {
 

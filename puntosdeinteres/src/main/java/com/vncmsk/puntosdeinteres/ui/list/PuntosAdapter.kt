@@ -1,4 +1,4 @@
-package com.vncmsk.puntosdeinteres.list
+package com.vncmsk.puntosdeinteres.ui.list
 
 import android.view.LayoutInflater
 import android.view.View

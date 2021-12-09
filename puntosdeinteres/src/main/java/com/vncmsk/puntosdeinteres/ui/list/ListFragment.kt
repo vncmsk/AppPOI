@@ -1,4 +1,4 @@
-package com.vncmsk.puntosdeinteres.list
+package com.vncmsk.puntosdeinteres.ui.list
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.vncmsk.puntosdeinteres.databinding.FragmentListBinding
-import com.vncmsk.puntosdeinteres.main.MainActivity
+import com.vncmsk.puntosdeinteres.ui.main.MainActivity
 import com.vncmsk.puntosdeinteres.model.POIItem
 
 class ListFragment : Fragment() {
@@ -31,7 +31,8 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        listViewModel.loadListPuntosfromJSON(context?.assets?.open("sitios.json"))
+        //listViewModel.loadListPuntosfromJSON(context?.assets?.open("sitios.json"))
+        listViewModel.getPuntosFromServer()
         listViewModel.onPuntosLoaded.observe(viewLifecycleOwner, { result ->
             onPuntosLoadedSuscribed(result)
         })

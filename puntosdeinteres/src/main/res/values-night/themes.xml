@@ -16,25 +16,25 @@
 
     <style name="Texto_titulo">
         <item name='android:textSize'>20dp</item>
-        <item name='android:textColor'>#5C5959</item>
+        <item name='android:textColor'>#BCBBBB</item>
         <item name='android:textStyle'>bold</item>
     </style>
 
     <style name="Subtitulo">
         <item name='android:textSize'>17dp</item>
-        <item name='android:textColor'>#5C5959</item>
+        <item name='android:textColor'>#BCBBBB</item>
         <item name='android:textStyle'>bold</item>
     </style>
 
     <style name="Texto_normal">
         <item name='android:textSize'>13dp</item>
-        <item name='android:textColor'>#5C5959</item>
+        <item name='android:textColor'>#BCBBBB</item>
     </style>
 
     <style name="RatingBar" parent="Theme.MaterialComponents.DayNight">
         <item name="ratingBarStyle">@style/Controls.RatingBar</item>
         <item name="colorControlActivated">#0091EA</item>
-        <item name="colorControlNormal">#5C5959</item>
+        <item name="colorControlNormal">#BCBBBB</item>
     </style>
 
     <style name="Controls.RatingBar" parent="Widget.AppCompat.RatingBar.Small">
