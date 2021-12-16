@@ -31,7 +31,6 @@ class ListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         (activity as MainActivity?)?.hideIcon()
-        //listViewModel.loadListPuntosfromJSON(context?.assets?.open("sitios.json"))
         listViewModel.getPuntosFromServer()
         listViewModel.onPuntosLoaded.observe(viewLifecycleOwner, { result ->
             onPuntosLoadedSuscribed(result)
@@ -47,7 +46,6 @@ class ListFragment : Fragment() {
 
     private fun onPuntosLoadedSuscribed(result: ArrayList<POIItem>?) {
         result?.let { listpuntoslocal ->
-
             puntosAdapter.appenditems(listpuntoslocal)
         }
     }

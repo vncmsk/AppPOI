@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PuntosDeInteres</string>
+    <string name="app_name">Puntos de interes</string>
     <string name="titulo_sitio">Sitio turistico</string>
     <string name="nombre_poi">Reserva Natural Flor de lotto</string>
     <string name="temperature">Temperatura: 18°</string>

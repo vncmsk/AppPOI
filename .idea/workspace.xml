@@ -13,31 +13,19 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8cc33f63-02a8-4896-bb2c-0b29c6af9088" name="Default Changelist" comment="6 de diciembre">
-      <change afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/data/ApiFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/data/ApiService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/data/PuntosRepository.kt" afterDir="false" />
+    <list default="true" id="8cc33f63-02a8-4896-bb2c-0b29c6af9088" name="Default Changelist" comment="maps ok, web service ok">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/detail/DetailFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/detail/DetailFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/list/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/ListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/list/ListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/ListViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/list/PuntosAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/PuntosAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/main/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/main/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/maps/MapsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/maps/MapsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/data/ApiFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/data/ApiFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/model/POI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/model/POI.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/model/POIItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/model/POIItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/preference/SettingsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/preference/SettingsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/res/layout/fragment_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/layout/fragment_list.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/res/layout/fragment_maps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/layout/fragment_maps.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/res/navigation/mobile_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/ListFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/ListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/ListViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/PuntosAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/PuntosAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/maps/MapsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/maps/MapsFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

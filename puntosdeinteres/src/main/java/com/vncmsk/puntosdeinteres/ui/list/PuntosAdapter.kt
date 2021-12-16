@@ -46,7 +46,7 @@ class PuntosAdapter(
     fun bind(puntoInteres: POIItem) {
       nameTextView.text = puntoInteres.nombre
       descripcionTextView.text = puntoInteres.descripcion
-      Picasso.get().load(puntoInteres.urlPicture).into(pictureImageView);
+      Picasso.get().load(puntoInteres.urlPicture).into(pictureImageView)
       rateTextView.text = puntoInteres.rate.toString()
       rateRatingBar.rating = puntoInteres.rate!!
     }
