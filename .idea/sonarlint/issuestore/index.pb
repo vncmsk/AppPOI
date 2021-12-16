@@ -7,5 +7,3 @@ X
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 j
 :puntosdeinteres/src/release/res/values/google_maps_api.xml,b\e\be483d26b1f47b51c4c0983dc22adf94c17d3670
-L
-puntosdeinteres/build.gradle,9\3\93555652175f436faf42c1f01eebe8a7024f62f2

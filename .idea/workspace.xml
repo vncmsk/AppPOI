@@ -15,17 +15,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8cc33f63-02a8-4896-bb2c-0b29c6af9088" name="Default Changelist" comment="maps ok, web service ok">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/data/ApiFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/data/ApiFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/model/POI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/model/POI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/model/POIItem.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/model/POIItem.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/ListFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/ListFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/ListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/ListViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/PuntosAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/list/PuntosAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/maps/MapsFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/maps/MapsFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +61,9 @@
         <option value="Kotlin Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="develop" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -310,7 +306,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
