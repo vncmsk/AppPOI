@@ -15,10 +15,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8cc33f63-02a8-4896-bb2c-0b29c6af9088" name="Default Changelist" comment="maps ok, web service ok">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puntosdeinteres/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puntosdeinteres/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/puntosdeinteres/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -298,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638846287698</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sprint 5">
+      <created>1639627201257</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639627201257</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,6 +334,7 @@
     <MESSAGE value="Sprint 2 completo, Recycler view OK" />
     <MESSAGE value="Refactorización MVVM" />
     <MESSAGE value="6 de diciembre" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 de diciembre" />
+    <MESSAGE value="sprint 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="sprint 5" />
   </component>
 </project>
