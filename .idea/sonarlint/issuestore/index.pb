@@ -7,3 +7,5 @@ X
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 j
 :puntosdeinteres/src/release/res/values/google_maps_api.xml,b\e\be483d26b1f47b51c4c0983dc22adf94c17d3670
+„
+Tpuntosdeinteres/src/main/java/com/vncmsk/puntosdeinteres/ui/detail/DetailFragment.kt,9\7\97d667876c8b857ef8067e38844edb4f45586f16
